@@ -3,9 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <title>Flutter CLI & Git Commands</title>
   <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
     .container {
       max-width: 800px;
       margin: 0 auto;
@@ -13,6 +17,9 @@
     }
     #main_content {
       width: 100%;
+    }
+    body > div > h1 > a {
+      display: none;
     }
   </style>
 </head>
